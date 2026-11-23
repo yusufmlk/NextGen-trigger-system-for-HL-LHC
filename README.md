@@ -20,6 +20,7 @@ These describe what our prototype must do.
 # 2. Non-functional requirements
 These define how well the system should operate.
 | ID |	Requirement |
+| --- | --- | 
 | NFR-01 |	Low-latency event processing |
 | NFR-02	| High event-processing throughput |
 | NFR-03	| Reliable event classification |
@@ -37,6 +38,7 @@ Data is the foundation of our entire research prototype.
 
 ## We need:
 | Requirement |	Description |
+| --- | --- |
 | Dataset |	Publicly available particle physics collision data |
 | Event | information	Particle properties, reconstructed objects and event features |
 | Labels |	Signal/background labels wherever available |
@@ -48,6 +50,7 @@ Data is the foundation of our entire research prototype.
 # 4. Technical requirements
 These are the technologies I recommend for the prototype.
 | Component |	Recommended technology |
+| --- | --- |
 | Primary programming |	Python |
 | High-performance modules |	C++ |
 | Machine learning |	PyTorch |
@@ -66,6 +69,7 @@ These are the technologies I recommend for the prototype.
 # 5. Hardware requirements
 ## Minimum development environment
 |Component |	Suggested minimum |
+| --- | --- |
 | Processor	| Modern 4-core CPU |
 | RAM	| 8 GB |
 | Storage |	20–30 GB free |
@@ -76,6 +80,7 @@ These are the technologies I recommend for the prototype.
 
 ## Recommended development environment
 | Component	| Recommendation |
+| --- | --- |
 | Processor	| 8-core CPU or better |
 | RAM	| 16–32 GB |
 | Storage |	512 GB SSD |
@@ -88,6 +93,7 @@ This is one of the most important parts of the project.
 We must prove that our proposed system offers measurable benefits over a baseline.
 
 | Metric |	What we measure |
+| --- | --- |
 | Event-selection efficiency |	Relevant events successfully selected |
 | Background rejection |	Uninteresting events rejected |
 | False-positive rate | 	Uninteresting events incorrectly selected |
